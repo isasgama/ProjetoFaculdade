@@ -38,7 +38,7 @@ public class TelaBase extends JFrame implements ActionListener {
 		txtNumero2.setBackground(Color.LIGHT_GRAY);
 		lblResultado.setBorder(BorderFactory.createLineBorder(Color.black));
 		
-		add(painel, BorderLayout.CENTER);
+		add(painel);
 		add(lblResultado);
 		add(txtNumero1);
 		add(txtNumero2);
